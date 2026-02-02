@@ -15,7 +15,7 @@ export default function FormVaga() {
     setError("");
 
     if (!url.trim()) {
-      setError("Por favor, cole um link de vaga do LinkedIn");
+      setError("Por favor, cole um link de vaga do LinkedIn.");
       return;
     }
 
